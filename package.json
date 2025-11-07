@@ -1,5 +1,5 @@
 {
-  "name": "meu-app",
+  "name": "lariquei-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@supabase/supabase-js": "^2.0.0"
-    "patch-package": "^6.5.1"
   },
   "devDependencies": {
     "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.0.0"
+    "@vitejs/plugin-react": "^4.0.0",
+    "patch-package": "^6.5.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
